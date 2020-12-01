@@ -1,0 +1,11 @@
+.project
+.settings/
+.classpath
+bin/
+*.class
+target/
+build/
+*.log
+*~
+src/test/resources/output/
+output/*
