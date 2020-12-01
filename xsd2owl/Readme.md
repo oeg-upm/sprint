@@ -35,7 +35,14 @@ options:
 
 ## Performance results
 
+```log
+We obtain the results in a CSV file where saved the following information for each execution when transforming an XSD file to OWL:
+-	Elapsed_time: Elapsed real (wall clock) time used by the process, in seconds.
+-	Kernel_mode: Total number of CPU-seconds used by the system on behalf of the process (in kernel mode), in seconds.
+-	User_mode: Total number of CPU-seconds that the process used directly (in user mode), in seconds.
+-	Memory_max(Kbytes): Maximum resident set size of the process during its lifetime, in Kbytes.
 
+```
 <p align="center">
   <img src="images/results.jpg">
 </p>
